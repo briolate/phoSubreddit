@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   //Get subreddit
-  $.get('http://www.reddit.com/r/pho.json').done(function(post){
+  $.get('https://www.reddit.com/r/pho.json').done(function(post){
     console.log(post.data.children);
     for(var i=0; i<post.data.children.length; i++){
 
